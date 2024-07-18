@@ -13,7 +13,7 @@ function Playingvideo() {
   const {id}=useParams()
   useEffect(()=>{
     fetchvideodetails()
-    fetchRelatedvideo
+    fetchRelatedvideo()
   },[id])
    
 
